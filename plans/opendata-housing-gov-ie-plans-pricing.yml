@@ -1,0 +1,10 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+provider: Irish Housing Open Data
+providerId: opendata-housing-gov-ie
+created: '2026-06-07'
+modified: '2026-06-07'
+reconciled: false
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

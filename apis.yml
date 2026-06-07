@@ -1,0 +1,57 @@
+aid: opendata-housing-gov-ie
+name: Irish Housing Open Data
+description: >-
+  Irish Housing Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 461 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/opendata-housing-gov-ie/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Federal Government
+  - Ireland
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: opendata-housing-gov-ie:catalog
+    name: Irish Housing Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Irish Housing Open Data, ~461 datasets. Base URL https://opendata.housing.gov.ie/api/3/action/.
+    humanURL: https://opendata.housing.gov.ie
+    baseURL: https://opendata.housing.gov.ie/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://opendata.housing.gov.ie
+      - type: x-api-endpoint
+        url: https://opendata.housing.gov.ie/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.14'
+common:
+  - type: Website
+    url: https://opendata.housing.gov.ie
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/opendata-housing-gov-ie-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/opendata-housing-gov-ie-rate-limits.yml
+  - type: FinOps
+    url: finops/opendata-housing-gov-ie-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
