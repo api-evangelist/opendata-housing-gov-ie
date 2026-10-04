@@ -33,7 +33,7 @@ tags:
   - Data Catalog
   - DCAT
   - Government Data
-  - Federal-Government
+  - Federal Government
   - Ireland
 tags_raw:
   - Open Data
@@ -43,6 +43,7 @@ tags_raw:
   - Government Data
   - Federal Government
   - Ireland
+  - Federal-Government
 created: '2026-06-07'
 modified: '2026-06-07'
 specificationVersion: '0.23'
